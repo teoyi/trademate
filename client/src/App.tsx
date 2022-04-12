@@ -38,6 +38,7 @@ function App() {
           </a>
         </p>
       </header>
+      <button className="bg-red-500 px-8 py-10">Helo there</button>
     </div>
   )
 }
