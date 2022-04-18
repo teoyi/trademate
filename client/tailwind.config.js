@@ -7,7 +7,10 @@ module.exports = {
       'accent': '#4FAD8F',
       'primary-text': '#FFFFFF',
       'secondary-text': '#BFBFBF'
-    }
+    },
+    fontFamily: {
+      'poppins': ['Poppins', 'sans-serif'],
+    },
   },
   plugins: [],
 }
