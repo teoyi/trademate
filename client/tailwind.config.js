@@ -13,6 +13,9 @@ module.exports = {
       },
       height: {
         'no-scroll-l': 'calc(100vh - 100px)'
+      },
+      spacing: { 
+        '20': '5rem',
       }
     },
   },

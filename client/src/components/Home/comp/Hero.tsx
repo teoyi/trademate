@@ -5,7 +5,7 @@ import hero from "../../../assets/hero-1.jpg"
 const Hero = () => {
   return (
     <section className='h-no-scroll-l flex flex-row justify-start items-center'>
-        <div className='flex flex-col justify-center items-start w-3/5'>
+        <div className='flex flex-col justify-center items-start w-3/5 ml-10'>
             <h1 className='font-bold xl:text-[50px] leading-[50px] pointer-events-none xl:-mt-5 2xl:-mt-10'>
                 <span className='text-accent'>Review</span>
                 <span> your trades to<br/></span>

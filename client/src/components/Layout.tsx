@@ -5,7 +5,7 @@ const Layout = () => {
   return (
     <div className="App bg-base h-full text-primary-text flex justify-center font-poppins">
       <div className="max-w-[1440px] w-full">
-          <nav className='w-full flex flex-row justify-between items-center h-[100px] px-10'>
+          <nav className='w-full flex flex-row justify-between items-center h-[100px] xl:px-20 2xl:px-10'>
             <Navbar />
           </nav>
           <main className='px-10'>
