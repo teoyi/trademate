@@ -11,10 +11,10 @@ const Features = () => {
         <div className='bg-accent xl:w-[320px] 2xl:w-[400px] xl:h-[470px] 2xl:h-[600px] absolute z-0 rounded-lg xl:mr-[35px] xl:mb-[35px]'></div>
         </div>
       <div className="w-3/5 flex flex-col justify-center items-start h-full xl:mr-10 xl:ml-7 2xl:ml-20 2xl:mr-0"> 
-        <h1 className="text-accent font-bold mb-5 text-[36px]">Features</h1>
+        <h1 className="text-accent font-bold mb-10 text-[36px]">Features</h1>
         <div className="mb-7 flex flex-row w-full items-center">
           <div className="w-1/6 flex justify-center items-center">
-            <div className="h-[110px] w-[110px] bg-accent rounded-[50%]"></div> 
+            <div className="h-[103px] w-[103px] bg-accent rounded-[50%]"></div> 
           </div>
           <div className="w-5/6 ml-5 max-w-[550px]">
             <h3 className="font-semibold text-[21px]">Personalized Journal Dashboard</h3>
@@ -23,7 +23,7 @@ const Features = () => {
         </div>
         <div className="mb-7 flex flex-row w-full items-center">
           <div className="w-1/6 flex justify-center items-center">
-            <div className="h-[110px] w-[110px] bg-accent rounded-[50%]"></div> 
+            <div className="h-[103px] w-[103px] bg-accent rounded-[50%]"></div> 
           </div>
           <div className="w-5/6 ml-5 max-w-[550px]">
             <h3 className="font-semibold text-[21px]">Backtest-centric</h3>
@@ -32,7 +32,7 @@ const Features = () => {
         </div>
         <div className="flex flex-row w-full items-center">
           <div className="w-1/6 flex justify-center items-center">
-            <div className="h-[110px] w-[110px] bg-accent rounded-[50%]"></div> 
+            <div className="h-[103px] w-[103px] bg-accent rounded-[50%]"></div> 
           </div>
           <div className="w-5/6 ml-5 max-w-[550px]">
             <h3 className="font-semibold text-[21px]">No Cost, No Commitment</h3>
