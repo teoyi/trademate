@@ -17,8 +17,8 @@ const Features = () => {
             <div className="h-[103px] w-[103px] bg-accent rounded-[50%]"></div> 
           </div>
           <div className="w-5/6 ml-5 max-w-[550px]">
-            <h3 className="font-semibold text-[21px]">Personalized Journal Dashboard</h3>
-            <p className="font-[15px]">Users will gain personalized account analytics through their journal dashboard to gain immediate insights on their flaw as a trader</p>
+            <h3 className="font-semibold xl:text-[21px] 2xl:text-[24px]">Personalized Journal Dashboard</h3>
+            <p className="xl:text-[15px] 2xl:text-[16px] text-secondary-text">Users will gain personalized account analytics through their journal dashboard to gain immediate insights on their flaw as a trader</p>
           </div>
         </div>
         <div className="mb-7 flex flex-row w-full items-center">
@@ -26,8 +26,8 @@ const Features = () => {
             <div className="h-[103px] w-[103px] bg-accent rounded-[50%]"></div> 
           </div>
           <div className="w-5/6 ml-5 max-w-[550px]">
-            <h3 className="font-semibold text-[21px]">Backtest-centric</h3>
-            <p className="font-[15px]">This platform is built with the goal of having an outlet for storing back-testing or even forward-testing results and display the data relevant to your strategies to you hassle-free</p>
+            <h3 className="font-semibold xl:text-[21px] 2xl:text-[24px]">Backtest-centric</h3>
+            <p className="xl:text-[15px] 2xl:text-[16px] text-secondary-text">This platform is built with the goal of having an outlet for storing back-testing or even forward-testing results and display the data relevant to your strategies to you hassle-free</p>
           </div>
         </div>
         <div className="flex flex-row w-full items-center">
@@ -35,8 +35,8 @@ const Features = () => {
             <div className="h-[103px] w-[103px] bg-accent rounded-[50%]"></div> 
           </div>
           <div className="w-5/6 ml-5 max-w-[550px]">
-            <h3 className="font-semibold text-[21px]">No Cost, No Commitment</h3>
-            <p className="font-[15px]">As much as financial datas are crucial to a trader, the same could be said about their own accounts as it would reflect the good as well as the flaws in a trader’s personality</p>
+            <h3 className="font-semibold xl:text-[21px] 2xl:text-[24px]">No Cost, No Commitment</h3>
+            <p className="xl:text-[15px] 2xl:text-[16px] text-secondary-text">As much as financial datas are crucial to a trader, the same could be said about their own accounts as it would reflect the good as well as the flaws in a trader’s personality</p>
           </div>
         </div>
       </div>
