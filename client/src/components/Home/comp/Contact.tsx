@@ -10,7 +10,7 @@ const Contact = () => {
         <span className='text-accent'>?</span>
       </h1>
       <p className="text-secondary-text xl:text-[15px] 2xl:text-[17px]">
-        Trademate is a work in progress by Luke Teo. Though it is his dream to create more open source projects that benefits someone down the road, it is still difficult for a single man to complete a full-scale application on his own. If you are interested in contibuting to this project, do not hesitate to contact him through the following methods: 
+        Trademate is a work in progress by <span className='text-accent font-bold'>Luke Teo</span>. Though it is his dream to create more open source projects that benefits someone down the road, it is still difficult for a single man to complete a full-scale application on his own. If you are interested in contibuting to this project, do not hesitate to contact him through the following methods: 
       </p>
       <div className='flex flex-row justify-center items-center h-full'> 
         <a href="https://github.com/teoyi/" target="_blank" className='flex flex-col justify-center items-center hover:scale-105'>
