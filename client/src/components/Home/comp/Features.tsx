@@ -1,6 +1,8 @@
 
 import feature from "../../../assets/feature-2.jpg"
-
+import { RiDashboardFill } from "react-icons/ri";
+import { SiBookstack } from "react-icons/si";
+import { MdMoneyOff } from "react-icons/md";
 const Features = () => {
   return (
     <section className="h-screen flex flex-row justify-center w-full items-center xl:mt-20 2xl:mt-0 xl:px-10">
@@ -14,7 +16,9 @@ const Features = () => {
         <h1 className="text-accent font-bold mb-10 text-[36px]">Features</h1>
         <div className="mb-7 flex flex-row w-full items-center">
           <div className="w-1/6 flex justify-center items-center">
-            <div className="h-[103px] w-[103px] bg-accent rounded-[50%]"></div> 
+            <div className="h-[103px] w-[103px] bg-accent rounded-[50%] flex justify-center items-center">
+                <i className="text-base text-[50px]"><RiDashboardFill /></i>
+            </div> 
           </div>
           <div className="w-5/6 ml-5 max-w-[550px]">
             <h3 className="font-semibold xl:text-[21px] 2xl:text-[24px]">Personalized Journal Dashboard</h3>
@@ -23,16 +27,20 @@ const Features = () => {
         </div>
         <div className="mb-7 flex flex-row w-full items-center">
           <div className="w-1/6 flex justify-center items-center">
-            <div className="h-[103px] w-[103px] bg-accent rounded-[50%]"></div> 
+            <div className="h-[103px] w-[103px] bg-accent rounded-[50%] flex justify-center items-center">
+              <i className="text-base text-[50px]"><SiBookstack /></i>  
+            </div> 
           </div>
           <div className="w-5/6 ml-5 max-w-[550px]">
-            <h3 className="font-semibold xl:text-[21px] 2xl:text-[24px]">Backtest-centric</h3>
-            <p className="xl:text-[15px] 2xl:text-[16px] text-secondary-text">This platform is built with the goal of having an outlet for storing back-testing or even forward-testing results and display the data relevant to your strategies to you hassle-free</p>
+            <h3 className="font-semibold xl:text-[21px] 2xl:text-[24px]">Unlimited Journals</h3>
+            <p className="xl:text-[15px] 2xl:text-[16px] text-secondary-text">There exists unlimited strategies and each requires a dedicated journal to get the most accirate data. Trademate does not restrict the number of journal you can create.</p>
           </div>
         </div>
         <div className="flex flex-row w-full items-center">
           <div className="w-1/6 flex justify-center items-center">
-            <div className="h-[103px] w-[103px] bg-accent rounded-[50%]"></div> 
+            <div className="h-[103px] w-[103px] bg-accent rounded-[50%] flex justify-center items-center">
+              <i className="text-base text-[50px]"><MdMoneyOff /></i>
+            </div> 
           </div>
           <div className="w-5/6 ml-5 max-w-[550px]">
             <h3 className="font-semibold xl:text-[21px] 2xl:text-[24px]">No Cost, No Commitment</h3>
