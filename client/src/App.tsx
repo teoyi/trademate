@@ -8,6 +8,7 @@ import Landing from './components/Home/Landing';
 import AuthLayout from './components/Layout/AuthLayout';
 import Login from './components/Auth/Login';
 import Register from './components/Auth/Register';
+
 function App() {
   return (
     <Routes>

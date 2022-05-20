@@ -23,9 +23,10 @@ const Login = () => {
           <div>
             Don't have an account? <Link to="/register">Sign Up</Link>
           </div>
+          <button>Sign In</button>
         </form>
       </div>
-      <div className="w-3/5 bg-white">image illustrations</div>
+      <div className="w-3/5 bg-white text-black">image illustrations</div>
     </div>
   )
 }
