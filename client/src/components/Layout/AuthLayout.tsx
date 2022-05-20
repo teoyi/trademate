@@ -5,10 +5,10 @@ const Layout = () => {
   return (
     <div className="App bg-base h-full text-primary-text flex justify-center font-poppins">
       <div className="w-full">
-          <nav className='w-full flex flex-row justify-between items-center h-[100px] xl:px-10 2xl:px-10'>
+          <nav className='w-full absolute flex flex-row justify-between items-center h-[100px] xl:px-10 2xl:px-10'>
             <AuthNavbar />
           </nav>
-          <main className='px-10'>
+          <main className=''>
             <Outlet />
           </main>
           <footer></footer>
