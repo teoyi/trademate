@@ -20,6 +20,9 @@ module.exports = {
       },
       spacing: { 
         '20': '5rem',
+      },
+      backgroundImage: {
+        'login-img' : "url('/src/assets/login.jpg')",
       }
     },
   },

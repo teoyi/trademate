@@ -3,7 +3,7 @@ import { BsArrowLeft } from "react-icons/bs";
 
 const Navbar = () => {
   return (
-    <h1 className=" font-bold xl:text-[27px]">
+    <h1 className=" font-bold text-[24px] xl:text-[27px]">
       <Link to="/">
           <span>trademate</span>
           <span className="text-accent">.</span>
