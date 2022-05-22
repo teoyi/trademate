@@ -23,6 +23,7 @@ module.exports = {
       },
       backgroundImage: {
         'login-img' : "url('/src/assets/login.jpg')",
+        'register-img' : "url('/src/assets/register.jpg')",
       }
     },
   },

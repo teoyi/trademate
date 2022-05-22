@@ -31,7 +31,7 @@ const Register = () => {
           </div>
         </form>
       </div>
-      <div className="hidden lg:block w-3/5  h-full text-black bg-login-img bg-cover brightness-75"></div>
+      <div className="hidden lg:block w-3/5  h-full text-black bg-register-img bg-cover brightness-75"></div>
     </div>
   )
 }
