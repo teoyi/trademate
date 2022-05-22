@@ -2,14 +2,14 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <>
-        <h1 className=" font-bold xl:text-[27px]">
+    <div className="hidden md:flex flex-row justify-between items-center h-[100px] px-10">
+        <h1 className=" font-bold text-2xl md:text-sm">
             <Link to="/">
                 <span>trademate</span>
                 <span className="text-accent">.</span>
             </Link>
         </h1>
-        <ul className="flex flex-row justify-between items-center w-[200px] font-semibold">
+        <ul className="flex lg:flex flex-row justify-between items-center w-[200px] font-semibold">
             <li className='transition ease-in-out hover:scale-110 duration-300'>
                 <Link to="/register">Sign Up</Link>
             </li>
@@ -17,7 +17,7 @@ const Navbar = () => {
                 <Link to="/login">Login</Link>
             </li>
         </ul>
-    </>
+    </div>
   )
 }
 

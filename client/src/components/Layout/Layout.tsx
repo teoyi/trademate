@@ -1,18 +1,18 @@
 import { Outlet } from 'react-router-dom';
 import Navbar from '../Nav/Navbar';
+import MobileNavbar from '../Nav/MobileNavbar';
 
 const Layout = () => {
   return (
-    <div className="App bg-base h-full text-primary-text flex justify-center font-poppins">
-      <div className="max-w-[1440px] w-full">
-          <nav className='w-full flex flex-row justify-between items-center h-[100px] xl:px-20 2xl:px-10'>
-            <Navbar />
-          </nav>
-          <main className='px-10'>
-            <Outlet />
-          </main>
-          <footer></footer>
-      </div>
+    <div className="App bg-base h-full text-primary-text flex flex-col justify-center font-poppins m-0">
+      <nav className='sticky top-0 z-50'>
+        <Navbar />
+        <MobileNavbar />
+      </nav>
+      <main className='px-10 max-w-[1440px] w-full'>
+        <Outlet />
+      </main>
+      <footer></footer>
     </div>
   )
 }

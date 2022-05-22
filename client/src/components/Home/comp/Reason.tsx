@@ -13,7 +13,7 @@ const Reason = () => {
       <p className='text-secondary-text xl:text-[15px] 2xl:text-[17px] mb-10'>
       Trading is hard, even more so if a trader does not remain disciplined during his career. A common advise given by successful traders is to backtest and journal the trades. Not only does it provide evidence of a proof-of-concept for a strategy, but it also allows traders to review their mistakes and refine their edge in the market. 
       </p>
-      <div className='h-full w-full mt-5 flex flex-row justify-center items-center'>
+      <div className='h-full w-full mt-5 flex flex-col md:flex-row justify-center items-center'>
         <div className='w-72 h-96 bg-secondary-base mx-6 rounded-lg transition ease-in-out duration-300 hover:scale-105'>
           <div className="w-full flex justify-center items-center h-4/5 mb-6">
             <div className="h-[200px] w-[200px] bg-accent rounded-[50%] flex justify-center items-center">
