@@ -6,11 +6,11 @@ const Login = () => {
   return (
     <div className="h-screen flex flex-row">
       <div className="w-full lg:w-2/5 flex flex-col justify-center items-center">
-        <h1 className="text-[30px] font-bold mb-10">Sign In</h1>
+        <h1 className="text-[30px] font-bold mb-8">Sign In</h1>
         <form className="flex flex-col px-12 justify-center w-full lg:w-5/6 max-w-[500px]">
           <div className="flex flex-row items-center justify-center mb-5 border-b-2 border-accent pb-2">
             <i className="text-md mr-3"><FaUserAlt /></i>
-            <input type="text" id="username" autoComplete='off' placeholder="Username" required className="bg-transparent  w-full focus:outline-0"/>
+            <input type="text" id="username" autoComplete='off' placeholder="Username or Email" required className="bg-transparent  w-full focus:outline-0"/>
           </div>
           <div className="flex flex-row items-center justify-center mb-3 border-b-2 border-accent pb-2">
             <i className="text-md mr-3"><FaLock /></i>
