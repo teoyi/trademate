@@ -9,16 +9,10 @@ const Login = () => {
         <h1 className="text-[30px] font-bold mb-10">Sign In</h1>
         <form className="flex flex-col px-12 justify-center w-full lg:w-5/6 max-w-[500px]">
           <div className="flex flex-row items-center justify-center mb-5 border-b-2 border-accent pb-2">
-            {/* <label htmlFor='username' className='hidden text-sm mb-3'>
-              Username:
-            </label> */}
             <i className="text-md mr-3"><FaUserAlt /></i>
             <input type="text" id="username" autoComplete='off' placeholder="Username" required className="bg-transparent  w-full focus:outline-0"/>
           </div>
           <div className="flex flex-row items-center justify-center mb-3 border-b-2 border-accent pb-2">
-            <label htmlFor='password' className="hidden text-sm mb-3 display">
-              Password:
-            </label>
             <i className="text-md mr-3"><FaLock /></i>
             <input type="password" id="password" placeholder="Password" required className="bg-transparent  w-full focus:outline-0" />
           </div>
