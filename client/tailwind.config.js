@@ -7,7 +7,8 @@ module.exports = {
         'secondary-base': '#333333',
         'accent': '#4FAD8F',
         'primary-text': '#FFFFFF',
-        'secondary-text': '#BFBFBF'
+        'secondary-text': '#BFBFBF',
+        'hover': '#4AA285',
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],

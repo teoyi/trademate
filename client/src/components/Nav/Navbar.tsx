@@ -15,7 +15,7 @@ const Navbar = () => {
             </li>
             <li className="">
                 <Link to="/login">
-                    <button className="px-7 py-3 rounded-lg bg-accent font-semibold ">
+                    <button className="px-9 py-3 rounded-lg bg-accent font-semibold hover:bg-hover">
                         Login
                     </button>
                 </Link>
