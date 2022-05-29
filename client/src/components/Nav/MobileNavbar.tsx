@@ -4,6 +4,7 @@ import { Twirl as Hamburger } from 'hamburger-react'
 
 const MobileNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);  
+  const [isScrolled, setIsScrolled] = useState(false); 
 
   useEffect(() => {
     if (isOpen) { 
@@ -14,9 +15,19 @@ const MobileNavbar = () => {
       document.body.style.maxHeight = 'unset';
     }
   }, [isOpen]);
+  
+  const changeBackground = () => { 
+    if (window.scrollY >= 100) {
+        setIsScrolled(true);
+    } else { 
+        setIsScrolled(false);
+    }
+  }
+
+  window.addEventListener('scroll', changeBackground);
 
   return (
-    <div className="h-[100px] flex absolute w-full px-7 sm:px-10 md:hidden">
+    <div className={`h-[100px] flex absolute w-full px-7 transition-all ease-in-out duration-500 sm:px-10 md:hidden xl:px-20 ${ isScrolled ? 'bg-base h-[80px]' : '' }`}>
       <div className="flex flex-row justify-between items-center w-full">
         <h1 className="font-bold text-2xl md:text-sm">
             <Link to="/">
