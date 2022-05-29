@@ -9,18 +9,18 @@ const Hero = () => {
             <h1 className='font-bold text-3xl w-full pointer-events-none md:text-4xl lg:hidden text-center'>
                 <span className='text-accent'>Review</span>
                 <span> your trades<br/></span>
-                <span>Be a</span>
+                <span>Become a</span>
                 <span className='text-accent'> better</span>
                 <span> trader</span>
             </h1>
-            <h1 className='hidden font-bold pointer-events-none text-center text-5xl lg:block'>
+            <h1 className='hidden font-bold pointer-events-none text-center text-5xl mt-20 2xl:text-7xl lg:block'>
                 <span className='text-accent'>Review</span>
-                <span> your trades and<br/></span>
-                <span>become a</span>
+                <span> your trades<br/></span>
+                <span>Become a</span>
                 <span className='text-accent'> better</span>
                 <span> trader</span>
             </h1>
-            <p className='text-secondary-text text-sm text-center pointer-events-none font-semibold my-4 mx-20 lg:text-md'>Your one stop trading journal to enhance your trading journey</p>
+            <p className='text-secondary-text text-sm text-center pointer-events-none font-semibold my-4 mx-20 lg:text-md xl:text-lg 2xl:text-xl'>Your one stop trading journal to enhance your trading journey</p>
             <Link to='/register' className='bg-accent text-md px-6 py-3 font-semibold rounded-lg mt-5 transition ease-in-out hover:scale-105 duration-300'>Get Started</Link>
         </div>
         <div className="absolute bg-hero-img lg:bg-hero2-img bg-cover brightness-50 w-full h-screen z-0"></div>
