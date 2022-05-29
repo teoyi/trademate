@@ -8,9 +8,9 @@ const Landing = () => {
   return (
     <>
       <Hero />
-      <Features />
+      {/* <Features />
       <Reason />
-      <Contact />
+      <Contact /> */}
     </>
   )
 }

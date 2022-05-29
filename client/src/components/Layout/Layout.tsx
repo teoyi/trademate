@@ -9,7 +9,7 @@ const Layout = () => {
         <Navbar />
         <MobileNavbar />
       </nav>
-      <main className='px-10 max-w-[1440px] w-full'>
+      <main className='w-full'>
         <Outlet />
       </main>
       <footer></footer>

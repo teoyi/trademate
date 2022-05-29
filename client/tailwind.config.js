@@ -24,6 +24,8 @@ module.exports = {
       backgroundImage: {
         'login-img' : "url('/src/assets/login.jpg')",
         'register-img' : "url('/src/assets/register.jpg')",
+        'hero-img': "url('/src/assets/hero-1.jpg')",
+        'hero2-img': "url('/src/assets/hero-2.jpg')",
       }
     },
   },
