@@ -21,7 +21,7 @@ const Hero = () => {
                 <span> trader</span>
             </h1>
             <p className='text-secondary-text text-sm text-center pointer-events-none font-semibold my-4 mx-20 lg:text-md xl:text-lg 2xl:text-xl'>Your one stop trading journal to enhance your trading journey</p>
-            <Link to='/register' className='bg-accent text-md px-6 py-3 font-semibold rounded-lg mt-5 transition ease-in-out hover:scale-105 duration-300'>Get Started</Link>
+            <Link to='/register' className='bg-accent text-sm px-6 py-3 font-semibold rounded-lg mt-5 transition ease-in-out hover:scale-105 duration-300'>Get Started</Link>
         </div>
         <div className="absolute bg-hero-img lg:bg-hero2-img bg-cover brightness-50 w-full h-screen z-0"></div>
         {/* <div className="w-2/5 h-full bg-hero-img bg-cover brightness-75 hidden lg:block"></div> */}
