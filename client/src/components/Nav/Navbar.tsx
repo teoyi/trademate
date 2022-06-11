@@ -16,7 +16,7 @@ const Navbar = () => {
     
     return (
         <div className={`hidden w-full h-[100px] md:flex transition-all ease-in-out duration-500 flex justify-center items-center ${ isScrolled ? 'bg-base h-[80px]' : '' }`}>
-            <div className={`px-10 absolute w-full lg:max-w-[1440px] text-md md:flex flex-row justify-between items-center xl:px-20`}>
+            <div className={`px-10 absolute w-full lg:max-w-[1440px] text-md md:flex flex-row justify-between items-center 2xl:px-0`}>
                 <h1 className=" font-bold text-2xl">
                     <Link to="/">
                         <span>trademate</span>
@@ -29,7 +29,7 @@ const Navbar = () => {
                     </li>
                     <li className="">
                         <Link to="/login">
-                            <button className="px-9 py-3 rounded-lg bg-accent font-semibold hover:bg-hover">
+                            <button className="px-7 py-3 rounded-lg bg-accent font-semibold hover:bg-hover">
                                 Login
                             </button>
                         </Link>
