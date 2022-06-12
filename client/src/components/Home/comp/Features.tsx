@@ -3,6 +3,7 @@ import feature from "../../../assets/feature-2.jpg"
 import { RiDashboardFill } from "react-icons/ri";
 import { SiBookstack } from "react-icons/si";
 import { MdMoneyOff } from "react-icons/md";
+
 const Features = () => {
   return (
     <section className="h-screen w-full flex justify-center items-center xl:mt-20 2xl:mt-0 xl:px-10">
