@@ -2,7 +2,7 @@ import UndrawProjection from '../../../assets/undraw_projection.svg';
 
 const Features = () => {
   return (
-    <section className="w-full flex justify-center items-center xl:mt-20 2xl:mt-0 xl:px-10">
+    <section className="w-full flex justify-center items-center md:my-5 xl:my-10 xl:px-10">
       <div className="w-full h-full flex flex-col md:flex-row justify-center items-center max-w-[1440px] my-12 md:mx-10">
         <div className="w-4/5 mb-7 md:mb-0 md:w-1/2 max-w-[472px] xl:w-3/5">
           <img src={UndrawProjection} alt="projection image" width="100%" height="10px"/>
