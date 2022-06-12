@@ -3,7 +3,7 @@ import Contact from './comp/Contact'
 import Features from './comp/Features'
 import Hero from './comp/Hero'
 import Reason from './comp/Reason'
-import Buffer from './comp/Buffer'
+import LandingBuffer from './comp/LandingBuffer'
 import MoreThanJustAJournal from './comp/MoreThanJustAJournal'
 import MffBull from '../../assets/mff_bull.svg'
 
@@ -12,7 +12,7 @@ const Landing = () => {
     <>
       <Hero />
       {/*<Features />*/}
-      <Buffer />
+      <LandingBuffer />
       <div className="w-full flex justify-center items-center">
         <div className="w-full mx-5 mb-10 flex flex-row justify-center items-center max-w-[1440px]">
           <hr className="w-full mr-2"/>

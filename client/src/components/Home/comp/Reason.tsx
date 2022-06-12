@@ -5,7 +5,7 @@ import { BiLineChart } from "react-icons/bi";
 
 const Reason = () => {
   return (
-    <section className="flex justify-center w-full items-center xl:p-10">
+    <section className="flex justify-center w-full items-center xl:p-10 mb-10">
       <div className="w-full max-w-[1440px] flex flex-col justify-start">
         <h1 className='w-full font-semibold text-3xl md:text-4xl text-center mb-5'>
           <span className='text-primary-text'>Why trademate</span>
