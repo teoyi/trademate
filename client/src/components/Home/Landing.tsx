@@ -1,6 +1,7 @@
 import React from 'react'
 import Contact from './comp/Contact'
 import Features from './comp/Features'
+import FeaturesMobile from './comp/FeaturesMobile'
 import Hero from './comp/Hero'
 import Reason from './comp/Reason'
 import LandingBuffer from './comp/LandingBuffer'
@@ -25,6 +26,12 @@ const Landing = () => {
       </div>
       <Reason />
       <MoreThanJustAJournal />
+      <div className="md:hidden">
+        <FeaturesMobile />
+      </div>
+      <div className="md:block">
+        <Features />
+      </div>
       {/*<Contact />*/}
     </>
   )
