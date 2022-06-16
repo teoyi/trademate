@@ -12,7 +12,6 @@ const Landing = () => {
   return (
     <>
       <Hero />
-      {/*<Features />*/}
       <LandingBuffer />
       <div className="w-full flex justify-center items-center">
         <div className="w-full mx-5 mb-10 flex flex-row justify-center items-center max-w-[1440px]">
@@ -32,7 +31,6 @@ const Landing = () => {
       <div className="md:block">
         <Features />
       </div>
-      {/*<Contact />*/}
     </>
   )
 }
