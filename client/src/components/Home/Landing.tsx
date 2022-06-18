@@ -28,7 +28,7 @@ const Landing = () => {
       <div className="md:hidden">
         <FeaturesMobile />
       </div>
-      <div className="md:block">
+      <div className="hidden md:block">
         <Features />
       </div>
     </>
