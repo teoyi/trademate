@@ -1,4 +1,5 @@
 import UndrawProjection from '../../../assets/undraw_projection.svg';
+import { Link } from 'react-router-dom'
 
 const LandingBuffer = () => {
   return (
@@ -12,9 +13,11 @@ const LandingBuffer = () => {
             <h1 className="text-3xl font-semibold md:text-xl">Improve your discipline, test your strategy</h1>
             <p className="text-md text-secondary-text md:text-sm mt-3 mx-2 md:mx-0">Staying disciplined is easier said than done. Here at trademate, we help you keep to your rules and verify your strategy.</p>
           </div>
-          <button className="bg-accent text-sm px-6 py-3 font-semibold rounded-lg transition ease-in-out hover:scale-105 duration-300">
-            Get Started
-          </button>
+          <Link to="/register">
+            <button className="bg-accent text-sm px-6 py-3 font-semibold rounded-lg transition ease-in-out hover:scale-105 duration-300">
+              Get Started
+            </button>
+          </Link>
         </div>
       </div>
     </section>
