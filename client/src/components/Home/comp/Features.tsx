@@ -22,18 +22,6 @@ const Features = () => {
       <div className="w-full h-full flex flex-col justify-center items-center max-w-[1440px]">
         <h1 className="font-semibold text-3xl md:text-4xl text-center w-full mb-8">Key Highlights</h1>
         <div className="w-10/12">
-          {/*
-            3 tabs displaying 3 different images with captions explaining 
-            div 
-              div
-                -- tabs selection here 
-              /div 
-              div 
-                -- display items here 
-              /div 
-            /div 
-          */}
-
           <ul className="w-full flex flex-row justify-start items-center text-lg lg:justify-start border-b-2 border-accent pb-2">
             <li className={`cursor-pointer mr-10 ${isActive[0] ? '' : 'text-secondary-text'}`} onClick={() => handleActive(0)}><span className={`${isActive[0] ? 'text-accent' : 'text-secondary-text'} font-bold text-xl`}>01.</span><br />Unlimited Journals</li>
             <li className={`cursor-pointer mr-10 ${isActive[1] ? '' : 'text-secondary-text'}`} onClick={() => handleActive(1)}><span className={`${isActive[1] ? 'text-accent' : 'text-secondary-text'} font-bold text-xl`}>02.</span><br />Journal Analytics</li>

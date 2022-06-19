@@ -6,7 +6,9 @@ import Hero from './comp/Hero'
 import Reason from './comp/Reason'
 import LandingBuffer from './comp/LandingBuffer'
 import MoreThanJustAJournal from './comp/MoreThanJustAJournal'
+import JoinBanner from './comp/JoinBanner'
 import MffBull from '../../assets/mff_bull.svg'
+
 
 const Landing = () => {
   return (
@@ -31,6 +33,7 @@ const Landing = () => {
       <div className="hidden md:block">
         <Features />
       </div>
+      <JoinBanner />
     </>
   )
 }
