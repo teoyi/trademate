@@ -7,6 +7,7 @@ import Reason from './comp/Reason'
 import LandingBuffer from './comp/LandingBuffer'
 import MoreThanJustAJournal from './comp/MoreThanJustAJournal'
 import JoinBanner from './comp/JoinBanner'
+import LandingFooter from './comp/LandingFooter'
 import MffBull from '../../assets/mff_bull.svg'
 
 
@@ -34,6 +35,7 @@ const Landing = () => {
         <Features />
       </div>
       <JoinBanner />
+      <LandingFooter />
     </>
   )
 }
